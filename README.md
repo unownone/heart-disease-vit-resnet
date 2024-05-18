@@ -25,15 +25,15 @@
 
 Training Loss and Accuracy
 
-![Training Loss and Accuracy](./Google%20ViT_TRAIN.png)
+![Training Loss and Accuracy](./graphs/Google%20ViT_TRAIN.png)
 
 ROC-AUC
 
-![ROC-AUC](./google-vit-roc-auc.png)
+![ROC-AUC](./graphs/google-vit-roc-auc.png)
 
 Confusion Matrix
 
-![Confusion Matrix](./google-vit-confusion-matrix.png)
+![Confusion Matrix](./graphs/google-vit-confusion-matrix.png)
 
 #### Google ViT Base + ResNet50
 
@@ -44,15 +44,15 @@ Confusion Matrix
 
 - Training Loss and Accuracy
 
-![Training Loss and Accuracy](./gvit-resnet-50-train-loss.png)
+![Training Loss and Accuracy](./graphs/gvit-resnet-50-train-loss.png)
 
 - ROC-AUC
 
-![ROC-AUC](./gvit-resnet50-roc-auc.png)
+![ROC-AUC](./graphs/gvit-resnet50-roc-auc.png)
 
 - Confusion Matrix
 
-![Confusion Matrix](./gvit-resnet50-confusion-matrix.png)
+![Confusion Matrix](./graphs/gvit-resnet50-confusion-matrix.png)
 
 ### Google ViT Base + ResNet18
 
@@ -63,15 +63,15 @@ Confusion Matrix
 
 Training Loss and Accuracy
 
-![Training Loss and Accuracy](./gvit-resnet-18-train-loss.png)
+![Training Loss and Accuracy](./graphs/gvit-resnet-18-train-loss.png)
 
 ROC-AUC
 
-![ROC-AUC](./gvit-reset18-roc-auc.png)
+![ROC-AUC](./graphs/gvit-reset18-roc-auc.png)
 
 Confusion Matrix
 
-![Confusion Matrix](./gvit-resnet18-confusion-matrix.png)
+![Confusion Matrix](./graphs/gvit-resnet18-confusion-matrix.png)
 
 ### Explanation of Performance
 
@@ -101,10 +101,9 @@ The preprocessing steps are critical for ensuring that the data fed into the mod
 
 ### Download Links
 
-- **Google ViT Base Weights**: [Download ViT Weights](#)
-- **Google ViT Base + ResNet50 Weights**: [Download ViT + ResNet50 Weights](#)
-- **Google ViT Base + ResNet18 Weights**: [Download ViT + ResNet18 Weights](#)
-- **Code Repository**: [Download Code](#)
+- **Google ViT Base Weights**: [Download ViT Weights](./model_weights/ViTModel)
+- **Google ViT Base + ResNet50 Weights**: [Download ViT + ResNet50 Weights](./model_weights/Resnet50_VIT_ENSEMBLE)
+- **Google ViT Base + ResNet18 Weights**: [Download ViT + ResNet18 Weights](NOT THERE YET)
 
 ### Conclusion
 
