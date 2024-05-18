@@ -11,7 +11,7 @@
 | Model | Setup | Accuracy | F1  | Avg ROC-AUC | Precision | Recall |
 |-------|-------|----------|-----|-------------|-----------|--------|
 | [1]   | Holdout 80/0/20 | 0.928 | 0.926 | 0.990       | 0.939    | 0.942  |
-| [2]   | Holdout 80/0/20 | 0.916 | 0.915 | 0.978       | 0.921    | 0.916  |
+| [2]   | Holdout 80/0/20 | 0.980 | 0.980 | 0.998       | 0.979   | 0.980  |
 | [3]   | Holdout 80/0/20 | 0.927 | 0.923 | 0.987       | 0.925    | 0.927  |
 
 ### Metrics
@@ -23,15 +23,15 @@
 - **Learning Rate**: 9e-6
 - **Optimizer**: AdamW
 
-##### Training Loss and Accuracy
+Training Loss and Accuracy
 
 ![Training Loss and Accuracy](./Google%20ViT_TRAIN.png)
 
-##### ROC-AUC
+ROC-AUC
 
 ![ROC-AUC](./google-vit-roc-auc.png)
 
-##### Confusion Matrix
+Confusion Matrix
 
 ![Confusion Matrix](./google-vit-confusion-matrix.png)
 
@@ -42,17 +42,17 @@
 - **Learning Rate**: 9e-6
 - **Optimizer**: AdamW
 
-### Training Loss and Accuracy
+- Training Loss and Accuracy
 
-Currently, the training loss and accuracy for the Google ViT Base + ResNet50 model are not provided.
+![Training Loss and Accuracy](./gvit-resnet-50-train-loss.png)
 
 - ROC-AUC
 
-Currently, the ROC-AUC for the Google ViT Base + ResNet50 model is not provided.
+![ROC-AUC](./gvit-resnet50-roc-auc.png)
 
 - Confusion Matrix
 
-Currently, the confusion matrix for the Google ViT Base + ResNet50 model is not provided.
+![Confusion Matrix](./gvit-resnet50-confusion-matrix.png)
 
 ### Google ViT Base + ResNet18
 
@@ -61,21 +61,21 @@ Currently, the confusion matrix for the Google ViT Base + ResNet50 model is not 
 - **Learning Rate**: 9e-6
 - **Optimizer**: AdamW
 
-##### Training Loss and Accuracy
+Training Loss and Accuracy
 
 ![Training Loss and Accuracy](./gvit-resnet-18-train-loss.png)
 
-##### ROC-AUC
+ROC-AUC
 
 ![ROC-AUC](./gvit-reset18-roc-auc.png)
 
-##### Confusion Matrix
+Confusion Matrix
 
 ![Confusion Matrix](./gvit-resnet18-confusion-matrix.png)
 
 ### Explanation of Performance
 
-#### Google ViT Base
+*Google ViT Base*
 
 The Vision Transformer (ViT) model leverages the transformer architecture, which has shown significant success in natural language processing tasks. When applied to vision tasks, ViT breaks an image into a sequence of patches and processes them similarly to how words are processed in NLP models. This approach allows ViT to capture long-range dependencies and complex patterns within the image, resulting in high accuracy and a strong ROC-AUC score.
 
